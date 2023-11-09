@@ -1,0 +1,285 @@
+/* Media query for display: over 500 */
+
+@media screen and (min-width:765px) {
+    /* ------------- */
+    /* Common Format */
+    /* ------------- */
+    
+    body {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+    main {
+        margin-left: 5%;
+    }
+    
+    /* -------------------- */
+    /* main.html Formatting */
+    /* -------------------- */
+    .main {
+        margin-left: 10%;
+    }
+
+    .main div {
+        margin-right: -5%;
+        width: 90%;
+    }
+    
+    hr {
+        width: 83%;
+        margin-left: 0em;
+    }
+    
+    div p.element {
+        width: 50%;
+    }
+    
+    div p.id {
+        /* width: 20%; */
+    }
+    
+    form {
+        width: 78%;
+    }
+    
+    .cert li {
+        width: 200%;
+    }
+    
+    /* ------------------------- */
+    /* timetable.html Formatting */
+    /* ------------------------- */
+    .timetable {
+        width: 100%;
+    }
+    
+    /* Banner */
+    .bannerTimetable {
+        background-size: contain;
+        width: 100%;
+        height: 30em;
+    }
+    
+    
+    #firstTab, #secondTab {
+        position: relative;
+        word-break: break-all;
+        left: 2%;
+        width: 96%;
+    }
+    
+    #secondTab {
+        font-size: 0.8em;
+    }
+    #firstTab .secondCol {
+        width: 43.1%;
+    }
+    
+    .firstCol {
+        width: 13.8%;
+    }
+    .secondCol {
+        width: 28.7%;
+    }
+    .thirdCol {
+        width: 28.7%;
+    }
+    .fourthCol {
+        width: 28.7%;
+    }
+
+    /* ------------------------- */
+    /* hometown.html Formatting */
+    /* ------------------------- */
+    
+    .tableHometown {
+        font-size: .8em
+    }
+
+    /* ------------------------- */
+    /* animation.html Formatting */
+    /* ------------------------- */
+    
+    .animation {
+        width: 90%;
+    }
+}
+
+/* Media query for display: between 425px and 765px */
+
+
+@media screen and (max-width:764px) and (min-width:425px) {
+    
+    /* ------------- */
+    /* Common Format */
+    /* ------------- */
+    
+    body {
+        font-size: 1em;
+        width: 96.1%;
+    }
+    
+    header {
+        min-width: 765px;
+        width: 96.1%;
+    }
+    
+    footer {
+        width: 96.1%;
+    }
+    
+    /* -------------------- */
+    /* main.html Formatting */
+    /* -------------------- */
+    
+    .main div {
+        width: 90.1%;
+    }
+
+    .main img {
+        float: left;
+        margin-left: 2em;
+    }
+
+    /* ------------------------- */
+    /* timetable.html Formatting */
+    /* ------------------------- */ 
+
+    #secondTab {
+        font-size: .8em;
+        /* margin-left: -6em; */
+    }
+
+    #secondTab, #firstTab {
+        width: 85%;
+        /* margin-left: -3em; */
+    }
+
+    /* ------------------------- */
+    /* timetable.html Formatting */
+    /* ------------------------- */
+
+    .tableHometown {
+        font-size: 0.9em;
+        margin-left: 2em;
+    }
+
+/* ------------------------- */
+    /* timetable.html Formatting */
+    /* ------------------------- */
+
+    .animation {
+        width: 80.1%;
+    }
+
+}
+
+/* Media query for display: under 500 */
+
+@media screen and (max-width:425px) {
+/* ------------- */
+    /* Common Format */
+    /* ------------- */
+    
+    header {
+        width: 56%;
+    }
+
+    body {
+        width: 55%;
+    }
+
+    /* Title */
+    #heading {
+        width: 20%;
+    }
+
+    /* Logo */
+    header img {
+        margin-top: -.5em;
+        width: 6em;
+        height: 6em;
+    }
+
+    /* Navigation Bar */
+
+    nav {
+        height: 8em;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 13em 13em;
+    }   
+    /* -------------------- */
+    /* main.html Formatting */
+    /* -------------------- */
+.main {
+    width: 55%;
+}
+    
+    .main img {
+        float: left;
+        width: 40%;
+    }
+
+    .container div {
+        display: grid;
+    }
+
+    div p.element {
+        width: 100%;
+    }
+
+    .cert li {
+        width: 100%;
+    }
+
+    .button {
+        text-align: center;
+    }
+    /* Form */
+    .main form {
+        width: 70%;
+    }
+
+    /* ------------- */
+    /* hometown.html Formatting */
+    /* ------------- */
+
+    .hometown {
+        width: 100%;
+    }
+
+.hometown p {
+    width: 46%;
+}
+
+/* Aside Styling*/
+    aside {
+        float: left;
+    }
+
+    /* ------------------------- */
+    /* timetable.html Formatting */
+    /* ------------------------- */
+
+    #firstTab, #secondTab {
+        font-size: 0.8em;
+        width: 47%;
+        margin-left: -10%;
+    }
+
+    #secondTab {
+        width: 52%;
+        word-break: break-all;
+    }
+
+    /* -------------------- */
+    /* animation Formatting */
+    /* -------------------- */
+
+    .animation p {
+        width: 50%;
+    }
+}
